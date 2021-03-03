@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing Script&display=swap');
+
+
+h1 {
+    font-family: 'Pacifico', sans-serif;
+    text-align: center;
+    color: gray;
+    
+}
+
+figure {
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Dancing Script', sans-serif;
+    color: blue;
+    
+}
+
+.titulo{
+    color: green;
+}
+
+
+#contenedor-galeria{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100px;
+    margin: auto;
+
+}
+
+.galeria_img{
+    width: 3000px;
+    height: 200px;
+    margin-bottom: 30px;
+    object-fit: cover;
+}
+
+
+
+
+
+
